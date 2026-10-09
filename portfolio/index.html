@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Persoonlijke portfolio website - Home">
+    <title>Mijn Portfolio - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Mijn<span>Portfolio</span></a>
+                <button class="hamburger" aria-label="Menu openen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/over-mij.html">Over mij</a></li>
+                    <li><a href="pages/projecten.html">Projecten</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Hallo, ik ben <span id="typing-name">Charif</span></h1>
+                <p>Student Informatietechnologie</p>
+                <p class="tagline">Ik bouw websites en leer elke dag nieuwe technologieen</p>
+                <a href="pages/projecten.html" class="btn btn-primary">Bekijk mijn projecten</a>
+                <a href="pages/contact.html" class="btn btn-secondary">Neem contact op</a>
+            </div>
+        </section>
+
+        <section class="section" id="overzicht">
+            <div class="container">
+                <h2 class="section-title">Wat ik doe</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div class="card-img">Frontend</div>
+                        <div class="card-body">
+                            <h3>Websites bouwen</h3>
+                            <p>Ik maak moderne en responsive websites met HTML en CSS.</p>
+                            <div class="card-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">Programmeren</div>
+                        <div class="card-body">
+                            <h3>Programmeren</h3>
+                            <p>Ik leer JavaScript voor interactieve en dynamische websites.</p>
+                            <div class="card-tags">
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img">Design</div>
+                        <div class="card-body">
+                            <h3>Design & Usability</h3>
+                            <p>Ik let op een goede layout, kleuren en gebruiksvriendelijkheid.</p>
+                            <div class="card-tags">
+                                <span class="tag">Design</span>
+                                <span class="tag">UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Mijn Portfolio. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

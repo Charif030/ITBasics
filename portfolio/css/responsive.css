@@ -1,0 +1,97 @@
+/* ============================================
+   Responsive design (mobiel en tablet)
+   ============================================ */
+
+/* ---------- Tablet (max 768px) ---------- */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        margin-top: 10px;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 12px;
+    }
+
+    .hero {
+        padding: 100px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .page-banner {
+        padding: 80px 0 50px;
+    }
+
+    .page-banner h1 {
+        font-size: 2rem;
+    }
+}
+
+/* ---------- Telefoon (max 480px) ---------- */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        margin: 5px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
